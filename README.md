@@ -77,6 +77,17 @@ alpha: 0.5
 ```
 These values can be used to compute or apply a ```cv2.warpPerspective()``` transformation later.
 
+## 🛠 Batch Application of Homography
+
+Once you've found the right parameters using the GUI, you can apply them to a whole folder of images using the script below:
+
+```bash
+python apply_homography_batch.py
+```
+Make sure to update the parameters inside the script (```tx```, ```ty```, ```theta```, etc.) and set your input/output folders. The script uses ```cv2.warpPerspective()``` and saves the transformed images to ```output_images/```.
+
+The output size is based on the reference image (e.g. ```swir.png```).
+
 ## 💡 Potential Improvements
 - Add sliders (OpenCV trackbars) for visual adjustment
 - Save current parameters to a ```.json``` file

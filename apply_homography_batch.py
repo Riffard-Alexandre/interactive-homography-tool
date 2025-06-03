@@ -1,3 +1,16 @@
+"""
+Batch Homography Transformer
+----------------------------
+
+Applies a manually defined homography transformation to a folder of input images,
+aligning them to match a reference image (e.g., SWIR) using warpPerspective.
+
+Author: Riffard Alexandre
+GitHub: https://github.com/Riffard-Alexandre/interactive-homography-tool
+License: MIT
+"""
+
+
 import cv2
 import numpy as np
 import os

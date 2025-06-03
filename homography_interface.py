@@ -1,3 +1,16 @@
+"""
+Interactive Homography Tuner
+----------------------------
+
+A simple GUI tool to manually adjust homography parameters (translation, rotation, scale, perspective)
+to align a visible image onto a reference image (e.g., SWIR).
+
+Author: Alexandre Riffard
+GitHub: https://github.com/Riffard-Alexandre/interactive-homography-tool
+License: MIT
+"""
+
+
 import cv2
 import numpy as np
 

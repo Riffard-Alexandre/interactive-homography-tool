@@ -91,4 +91,5 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 
 ## ✨ Acknowledgements
 Designed to simplify image alignment and easily visualise the result. 🚀
+
 Good luck in your project. 😺

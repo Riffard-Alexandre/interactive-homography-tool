@@ -31,8 +31,8 @@ angle_step = 1.0
 persp_step = 0.001
 
 # === CHARGEMENT DES IMAGES ===
-swir = cv2.imread(r"C:\Users\Riffard\Documents\Datasets\Cerema_05-06_05_2025\5\03-calib_swir\seq_00709_1746512979_698878153.tiff")
-visible = cv2.imread(r"C:\Users\Riffard\Documents\Datasets\Cerema_05-06_05_2025\5\03-calib_vis\seq_00710_1746512979_701329716.tiff")
+swir = cv2.imread(r"swir.png")
+visible = cv2.imread(r"visible.png")
 
 if swir is None or visible is None:
     raise ValueError("Images non trouvées ! Assurez-vous que l'image SWIR et/ou l'image Visible existent.")
